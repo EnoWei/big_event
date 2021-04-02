@@ -21,6 +21,7 @@ $(function() {
 
   // 为文件选择框绑定 change 事件
   $('#file').on('change', function(e) {
+    console.log(666);
     // 获取用户选择的文件
     var filelist = e.target.files
     if (filelist.length === 0) {
